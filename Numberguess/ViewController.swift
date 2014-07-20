@@ -12,10 +12,10 @@ class ViewController: UIViewController,UITextFieldDelegate {
     
     @IBOutlet var myOtherButton:UIButton
     
-    @IBOutlet var myans:UILabel
+    @IBOutlet var myHistoryButton:UIButton
     
     @IBAction func buttonClicked() {
-        refresh()
+        UIrefresh()
     }
         
     @IBAction func check() {
@@ -24,15 +24,17 @@ class ViewController: UIViewController,UITextFieldDelegate {
         mystic.guess = self.myTextField.text
         var ans = mystic.compare(mystic.target,n:mystic.guess)
         myResultTextField.text = ans
+        if ans == mystic.target {
+            displaywin()
+        }
     }
     
-    func revealans(){
-        self.myans.text = mystic.target
+    @IBAction func displaywin() {
+        
     }
     
-    func refresh() {
+    func UIrefresh() {
         mystic.refresh()
-        revealans()
     }
     
     override func viewDidLoad() {

@@ -1,5 +1,7 @@
 import Foundation
 
+import UIKit
+
 class Number
 {
     var target:String = ""
@@ -8,6 +10,8 @@ class Number
     init() {
         self.target = self.generateNumberString()
     }
+    
+
     
     func generateNumberString()->String {
         var ans:Array<Int> = []

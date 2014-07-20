@@ -13,6 +13,7 @@
 		D29B31EE19694719003D3500 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D29B31ED19694719003D3500 /* Images.xcassets */; };
 		D29B31FA1969471A003D3500 /* NumberguessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29B31F91969471A003D3500 /* NumberguessTests.swift */; };
 		D29B320419697A6D003D3500 /* Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29B320319697A6D003D3500 /* Number.swift */; };
+		D2B0A42E197B94B800B6C769 /* OtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B0A42D197B94B800B6C769 /* OtherViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		D29B31F81969471A003D3500 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D29B31F91969471A003D3500 /* NumberguessTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberguessTests.swift; sourceTree = "<group>"; };
 		D29B320319697A6D003D3500 /* Number.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Number.swift; sourceTree = "<group>"; };
+		D2B0A42D197B94B800B6C769 /* OtherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				D29B31E619694719003D3500 /* AppDelegate.swift */,
 				D29B31E819694719003D3500 /* ViewController.swift */,
 				D29B31EA19694719003D3500 /* Main.storyboard */,
+				D2B0A42D197B94B800B6C769 /* OtherViewController.swift */,
 				D29B320319697A6D003D3500 /* Number.swift */,
 				D29B31ED19694719003D3500 /* Images.xcassets */,
 				D29B31E419694719003D3500 /* Supporting Files */,
@@ -212,6 +215,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D29B31E919694719003D3500 /* ViewController.swift in Sources */,
+				D2B0A42E197B94B800B6C769 /* OtherViewController.swift in Sources */,
 				D29B31E719694719003D3500 /* AppDelegate.swift in Sources */,
 				D29B320419697A6D003D3500 /* Number.swift in Sources */,
 			);
@@ -401,6 +405,7 @@
 				D29B31FF1969471A003D3500 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D29B32001969471A003D3500 /* Build configuration list for PBXNativeTarget "NumberguessTests" */ = {
 			isa = XCConfigurationList;
@@ -409,6 +414,7 @@
 				D29B32021969471A003D3500 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
