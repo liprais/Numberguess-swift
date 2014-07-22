@@ -10,10 +10,9 @@ import UIKit
 
 class OtherViewController: UIViewController,UITableViewDataSource {
     
-    @IBOutlet var mySecondTextfield:UITextField
+    @IBOutlet var mySecondTextfield:UITextField?
     
-    @IBOutlet var myTableView:UITableView
-    
+    @IBOutlet var myTableView:UITableView?
     
     func tableView(tableView: UITableView!, numberOfRowsInSection section: Int) -> Int {
         return 3

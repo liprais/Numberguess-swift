@@ -4,15 +4,15 @@ class ViewController: UIViewController,UITextFieldDelegate {
     
     var mystic = Number()
     
-    @IBOutlet var myTextField:UITextField
+    @IBOutlet var myTextField:UITextField!
 
-    @IBOutlet var myResultTextField:UITextField
+    @IBOutlet var myResultTextField:UITextField!
 
-    @IBOutlet var myButton:UIButton
+    @IBOutlet var myButton:UIButton!
     
-    @IBOutlet var myOtherButton:UIButton
+    @IBOutlet var myOtherButton:UIButton!
     
-    @IBOutlet var myHistoryButton:UIButton
+    @IBOutlet var myHistoryButton:UIButton!
     
     @IBAction func buttonClicked() {
         UIrefresh()
