@@ -6,6 +6,7 @@ class Number
 {
     var target:String = ""
     var guess:String = ""
+    var history = [Int]()
     
     init() {
         self.target = self.generateNumberString()
